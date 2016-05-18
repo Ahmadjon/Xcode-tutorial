@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8432DA281CE0A54800DBDA30 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8432DA271CE0A54800DBDA30 /* MyTabBarController.swift */; };
+		848E77F01CDB52650064C03B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E77EF1CDB52650064C03B /* AppDelegate.swift */; };
+		848E77F71CDB52650064C03B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848E77F51CDB52650064C03B /* Main.storyboard */; };
+		848E77F91CDB52650064C03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848E77F81CDB52650064C03B /* Assets.xcassets */; };
+		848E77FC1CDB52650064C03B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848E77FA1CDB52650064C03B /* LaunchScreen.storyboard */; };
+		848E78071CDB52650064C03B /* AstorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E78061CDB52650064C03B /* AstorTests.swift */; };
+		848E78121CDB52650064C03B /* AstorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E78111CDB52650064C03B /* AstorUITests.swift */; };
+		848E78221CE06AF80064C03B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E78211CE06AF80064C03B /* MainViewController.swift */; };
+		848E78241CE06E800064C03B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E78231CE06E800064C03B /* TabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848E78031CDB52650064C03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848E77E41CDB52650064C03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848E77EB1CDB52650064C03B;
+			remoteInfo = Astor;
+		};
+		848E780E1CDB52650064C03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848E77E41CDB52650064C03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848E77EB1CDB52650064C03B;
+			remoteInfo = Astor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8432DA271CE0A54800DBDA30 /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		848E77EC1CDB52650064C03B /* Astor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848E77EF1CDB52650064C03B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848E77F61CDB52650064C03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848E77F81CDB52650064C03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848E77FB1CDB52650064C03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848E77FD1CDB52650064C03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848E78021CDB52650064C03B /* AstorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848E78061CDB52650064C03B /* AstorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstorTests.swift; sourceTree = "<group>"; };
+		848E78081CDB52650064C03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848E780D1CDB52650064C03B /* AstorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848E78111CDB52650064C03B /* AstorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstorUITests.swift; sourceTree = "<group>"; };
+		848E78131CDB52650064C03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848E78211CE06AF80064C03B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		848E78231CE06E800064C03B /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848E77E91CDB52650064C03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848E77FF1CDB52650064C03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848E780A1CDB52650064C03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848E77E31CDB52650064C03B = {
+			isa = PBXGroup;
+			children = (
+				848E77EE1CDB52650064C03B /* Astor */,
+				848E78051CDB52650064C03B /* AstorTests */,
+				848E78101CDB52650064C03B /* AstorUITests */,
+				848E77ED1CDB52650064C03B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848E77ED1CDB52650064C03B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848E77EC1CDB52650064C03B /* Astor.app */,
+				848E78021CDB52650064C03B /* AstorTests.xctest */,
+				848E780D1CDB52650064C03B /* AstorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848E77EE1CDB52650064C03B /* Astor */ = {
+			isa = PBXGroup;
+			children = (
+				848E77EF1CDB52650064C03B /* AppDelegate.swift */,
+				848E78211CE06AF80064C03B /* MainViewController.swift */,
+				848E78231CE06E800064C03B /* TabBarViewController.swift */,
+				848E77F51CDB52650064C03B /* Main.storyboard */,
+				8432DA271CE0A54800DBDA30 /* MyTabBarController.swift */,
+				848E77F81CDB52650064C03B /* Assets.xcassets */,
+				848E77FA1CDB52650064C03B /* LaunchScreen.storyboard */,
+				848E77FD1CDB52650064C03B /* Info.plist */,
+			);
+			path = Astor;
+			sourceTree = "<group>";
+		};
+		848E78051CDB52650064C03B /* AstorTests */ = {
+			isa = PBXGroup;
+			children = (
+				848E78061CDB52650064C03B /* AstorTests.swift */,
+				848E78081CDB52650064C03B /* Info.plist */,
+			);
+			path = AstorTests;
+			sourceTree = "<group>";
+		};
+		848E78101CDB52650064C03B /* AstorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				848E78111CDB52650064C03B /* AstorUITests.swift */,
+				848E78131CDB52650064C03B /* Info.plist */,
+			);
+			path = AstorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848E77EB1CDB52650064C03B /* Astor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848E78161CDB52650064C03B /* Build configuration list for PBXNativeTarget "Astor" */;
+			buildPhases = (
+				848E77E81CDB52650064C03B /* Sources */,
+				848E77E91CDB52650064C03B /* Frameworks */,
+				848E77EA1CDB52650064C03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astor;
+			productName = Astor;
+			productReference = 848E77EC1CDB52650064C03B /* Astor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848E78011CDB52650064C03B /* AstorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848E78191CDB52650064C03B /* Build configuration list for PBXNativeTarget "AstorTests" */;
+			buildPhases = (
+				848E77FE1CDB52650064C03B /* Sources */,
+				848E77FF1CDB52650064C03B /* Frameworks */,
+				848E78001CDB52650064C03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848E78041CDB52650064C03B /* PBXTargetDependency */,
+			);
+			name = AstorTests;
+			productName = AstorTests;
+			productReference = 848E78021CDB52650064C03B /* AstorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		848E780C1CDB52650064C03B /* AstorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848E781C1CDB52650064C03B /* Build configuration list for PBXNativeTarget "AstorUITests" */;
+			buildPhases = (
+				848E78091CDB52650064C03B /* Sources */,
+				848E780A1CDB52650064C03B /* Frameworks */,
+				848E780B1CDB52650064C03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848E780F1CDB52650064C03B /* PBXTargetDependency */,
+			);
+			name = AstorUITests;
+			productName = AstorUITests;
+			productReference = 848E780D1CDB52650064C03B /* AstorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848E77E41CDB52650064C03B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = OpenEngine;
+				TargetAttributes = {
+					848E77EB1CDB52650064C03B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					848E78011CDB52650064C03B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 848E77EB1CDB52650064C03B;
+					};
+					848E780C1CDB52650064C03B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 848E77EB1CDB52650064C03B;
+					};
+				};
+			};
+			buildConfigurationList = 848E77E71CDB52650064C03B /* Build configuration list for PBXProject "Astor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848E77E31CDB52650064C03B;
+			productRefGroup = 848E77ED1CDB52650064C03B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848E77EB1CDB52650064C03B /* Astor */,
+				848E78011CDB52650064C03B /* AstorTests */,
+				848E780C1CDB52650064C03B /* AstorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848E77EA1CDB52650064C03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848E77FC1CDB52650064C03B /* LaunchScreen.storyboard in Resources */,
+				848E77F91CDB52650064C03B /* Assets.xcassets in Resources */,
+				848E77F71CDB52650064C03B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848E78001CDB52650064C03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848E780B1CDB52650064C03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848E77E81CDB52650064C03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848E77F01CDB52650064C03B /* AppDelegate.swift in Sources */,
+				8432DA281CE0A54800DBDA30 /* MyTabBarController.swift in Sources */,
+				848E78241CE06E800064C03B /* TabBarViewController.swift in Sources */,
+				848E78221CE06AF80064C03B /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848E77FE1CDB52650064C03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848E78071CDB52650064C03B /* AstorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848E78091CDB52650064C03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848E78121CDB52650064C03B /* AstorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848E78041CDB52650064C03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848E77EB1CDB52650064C03B /* Astor */;
+			targetProxy = 848E78031CDB52650064C03B /* PBXContainerItemProxy */;
+		};
+		848E780F1CDB52650064C03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848E77EB1CDB52650064C03B /* Astor */;
+			targetProxy = 848E780E1CDB52650064C03B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		848E77F51CDB52650064C03B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848E77F61CDB52650064C03B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848E77FA1CDB52650064C03B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848E77FB1CDB52650064C03B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848E78141CDB52650064C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		848E78151CDB52650064C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848E78171CDB52650064C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Astor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.open.engine.Astor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		848E78181CDB52650064C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Astor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.open.engine.Astor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		848E781A1CDB52650064C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AstorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.open.engine.AstorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astor.app/Astor";
+			};
+			name = Debug;
+		};
+		848E781B1CDB52650064C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AstorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.open.engine.AstorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astor.app/Astor";
+			};
+			name = Release;
+		};
+		848E781D1CDB52650064C03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AstorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.open.engine.AstorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Astor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		848E781E1CDB52650064C03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AstorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.open.engine.AstorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Astor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848E77E71CDB52650064C03B /* Build configuration list for PBXProject "Astor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848E78141CDB52650064C03B /* Debug */,
+				848E78151CDB52650064C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848E78161CDB52650064C03B /* Build configuration list for PBXNativeTarget "Astor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848E78171CDB52650064C03B /* Debug */,
+				848E78181CDB52650064C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848E78191CDB52650064C03B /* Build configuration list for PBXNativeTarget "AstorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848E781A1CDB52650064C03B /* Debug */,
+				848E781B1CDB52650064C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848E781C1CDB52650064C03B /* Build configuration list for PBXNativeTarget "AstorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848E781D1CDB52650064C03B /* Debug */,
+				848E781E1CDB52650064C03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848E77E41CDB52650064C03B /* Project object */;
+}
